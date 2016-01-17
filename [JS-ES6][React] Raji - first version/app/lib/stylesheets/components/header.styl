@@ -1,0 +1,72 @@
+.Header
+  align-items center
+  border-bottom 1px solid $dark_text
+  box-sizing border-box
+  display flex
+  height 5em
+  justify-content center
+  margin  0 5%
+  padding 0 2em
+  width 90%
+
+  &-menuIcon, &-playlistIcon
+    color $clear_text
+    display none
+    font-size 1em
+    width 10em // Just for centering title
+
+  &-title
+    color $dark_text
+    font-size 2.5em
+    text-align center
+    font-weight 400
+    overflow(ellipsis)
+
+  &-search
+    color $light-text
+
+  &-input
+    border 1px solid $light_text
+    border-radius 10em
+    box-sizing border-box
+    height 2em
+    outline none
+    padding-left 2.5em
+    width 9em
+
+  &-searchIcon
+    margin -2em
+
+
+@media screen and (max-width $query_large)
+  .Header
+    background $box_color
+    display flex
+    height 3em
+    margin 0
+    padding 0
+    position relative
+    width 100%
+
+    &-menuIcon
+      font-weight 300
+      display block
+      font-size 2em
+      left .4em
+      position absolute
+      top .25em
+
+    &-playlistIcon
+      display block
+      position absolute
+      font-size 2em
+      top .25em
+      right .4em
+      width auto
+
+    &-title
+      align-self center
+      color $clear_text
+      font-size 2em
+      padding 0 2em
+      margin 0

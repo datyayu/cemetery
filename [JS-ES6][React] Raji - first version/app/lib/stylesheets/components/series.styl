@@ -1,0 +1,93 @@
+.Series
+  align-items center
+  display flex
+  flex-flow column wrap
+  flex-grow 1
+  min-height 100vh
+
+  &-filters
+    box-sizing content-box
+    display flex
+    justify-content space-around
+    margin 0.5em
+    width 80%
+
+  &-filter
+    cursor pointer
+    user-select none
+
+  &-link
+    color $light_text
+    font-size 1.5em
+    &.is-active
+      color $dark_text
+    &:hover
+      color $primary_color
+
+  &-list
+    display flex
+    align-content flex-start
+    align-items flex-start
+    flex 1
+    flex-flow row wrap
+    height 100%
+    max-height 78vh
+    margin 0
+    overflow-y auto
+    width 90%
+
+  &-item
+    display flex
+    height 100%
+    width 16.66%
+    position relative
+    margin-bottom -.3em
+
+  &-image
+    height 100%
+    width 100%
+
+  &-title
+    background rgba($primary_color, .5)
+    bottom .23em
+    color $clear_text
+    font-size 1.2em
+    left 0
+    padding 0
+    margin 0
+    overflow(ellipsis)
+    position absolute
+    text-align center
+    width 100%
+
+
+@media screen and (max-width $query_large) and (orientation portrait)
+  .Series
+    &-list
+      height 100%
+      max-height none
+      overflow-y visible
+      width 100%
+
+    &-item
+      width 50%
+
+    &-filters
+      margin 0
+      width 100%
+
+
+@media screen and (max-width $query_large) and (orientation landscape)
+  .Series
+    &-list
+      height 100%
+      max-height none
+      overflow-y visible
+      width 100%
+
+    &-item
+      width 25%
+
+    &-filters
+      font-size 1.5em
+      width 100%

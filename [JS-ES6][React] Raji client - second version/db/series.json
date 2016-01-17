@@ -1,0 +1,37 @@
+{
+  "title": "Series",
+  "series": [
+    {
+      "title": "Absolute Duo",
+      "image": "/assets/img/series/absoluteduo.jpg",
+      "id": "absoluteduo"
+    },
+    {
+      "title": "Saenai Heroine no Sodatekata",
+      "image": "/assets/img/series/saekano.jpg",
+      "id": "saekano"
+    },
+    {
+      "title": "Juuou Mujin no Fafnir",
+      "image": "/assets/img/series/fafnir.jpg",
+      "id": "fafnir"
+    },
+    {
+      "title": "Shinmai Maou no Testament",
+      "image": "/assets/img/series/shinmaou.jpg",
+      "id": "shinmaou"
+    }, {
+      "title": "Rokujouma no Shinryakusha!?",
+      "image": "/assets/img/series/rokujouma.jpg",
+      "id": "rokujouma"
+    },{
+      "title": "Yuuki Yuuna wa Yuusha de Aru",
+      "image": "/assets/img/series/yuyuyu.jpg",
+      "id": "yuyuyu"
+    },{
+      "title": "Inou-Battle wa Nichijou-kei no Naka de",
+      "image": "/assets/img/series/inoubattle.jpg",
+      "id": "inoubattle"
+    }
+  ]
+}

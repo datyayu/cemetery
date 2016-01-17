@@ -1,0 +1,18 @@
+{
+  "info": {
+    "title": "Juuou Mujin no Fafnir",
+    "image": "/public/assets/img/series/fafnir.jpg",
+    "id": "fafnir"
+  },
+  "albums": [
+    {
+      "singleType": "OP Single",
+      "title": "Absolute Soul",
+      "image": "/public/assets/img/covers/fafnir_op.jpg"
+    }, {
+      "singleType": "ED Single",
+      "title": "Ray of bullet",
+      "image": "/public/assets/img/covers/fafnir_ed.jpg"
+    }
+  ]
+}

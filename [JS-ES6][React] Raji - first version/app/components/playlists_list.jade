@@ -1,0 +1,7 @@
+div.PlaylistsList
+  - var page_title = "Playlists" 
+  include ./header
+
+  ul.PlaylistsList-list
+    for item in [,,,,,,,]
+      include ./playlist_item

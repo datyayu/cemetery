@@ -1,0 +1,20 @@
+{
+  "info": {
+    "title": "Absolute Duo",
+    "image": "/public/assets/img/series/absoluteduo.jpg",
+    "id": "absoluteduo"
+  },
+  "albums": [
+    {
+      "singleType": "OP Single",
+      "title": "Absolute Soul",
+      "image": "/public/assets/img/covers/absoluteduo_op.jpg",
+      "id": "0001"
+    }, {
+      "singleType": "ED Single",
+      "title": "Believe×Believe / Apple Tea no Aji / 2/2",
+      "image": "/public/assets/img/covers/absoluteduo_ed.jpg",
+      "id": "0002"
+    }
+  ]
+}

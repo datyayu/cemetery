@@ -1,0 +1,48 @@
+[
+  {
+    "info": {
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Iguchi Yuka First Single - Hafa Adai",
+      "id": "0103",
+      "author": "@datyayu",
+      "songCount": 12,
+      "playCount": 121,
+      "date": "march 2015"
+    },
+    "topSongs": [
+      "Manana",
+      "Fun Fanfare"
+    ]
+  }, {
+    "info": {
+      "image": "/public/assets/img/bladedance.jpg",
+      "title": "Seirei Tsukai no Blade Dance Special CD",
+      "id": "0102",
+      "author": "@datyayu",
+      "songCount": 3,
+      "playCount": 123,
+      "date": "march 2015"
+    },
+    "topSongs": [
+      "Kokuin Sanka",
+      "Holy Domain (Claire Rouge Solo ver.)",
+      "Shishi naru Homura"
+    ]
+  }, {
+    "info": {
+      "image": "/public/assets/img/gochiusa.jpg",
+      "title": "Gochiusa songs",
+      "id": "0101",
+      "author": "@datyayu",
+      "songCount": 5,
+      "date": "february 2015",
+      "playCount": 122
+    },
+    "topSongs": [
+      "Gochuumon wa Usagi Desu ka? (Chino version)",
+      "Hitosaji no Ohimesama Monogatari",
+      "Rabbit Hole",
+      "Zutto Issho"
+    ]
+  }
+]

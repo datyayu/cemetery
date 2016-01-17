@@ -1,0 +1,14 @@
+div.SeriesIndividual
+  - var page_title = "Absolute Duo"
+  include ./header
+  .SeriesIndividual-content
+    img.SeriesIndividual-image.u-desktopOnly(src="/public/assets/img/series/absoluteduo.jpg")
+    div.SeriesIndividual-releases
+      h2.SeriesIndividual-title Releases 
+      ul.SeriesIndividual-list
+        - var releases = [{title: 'OP Single', file: 'absoluteduo_op.jpg'}, {title: 'ED Single', file: 'absoluteduo_ed.jpg'},{title: 'Character Song 1', file: 'defaultCover.png'}, {title: 'Character Song 1', file: 'defaultCover.png'},{title: 'OP Single', file: 'absoluteduo_op.jpg'}, {title: 'ED Single', file: 'absoluteduo_ed.jpg'},{title: 'Character Song 1', file: 'defaultCover.png'}, {title: 'Character Song 1', file: 'defaultCover.png'},{title: 'OP Single', file: 'absoluteduo_op.jpg'}, {title: 'ED Single', file: 'absoluteduo_ed.jpg'},{title: 'Character Song 1', file: 'defaultCover.png'}, {title: 'Character Song 1', file: 'defaultCover.png'},{title: 'OP Single', file: 'absoluteduo_op.jpg'}, {title: 'ED Single', file: 'absoluteduo_ed.jpg'},{title: 'Character Song 1', file: 'defaultCover.png'}, {title: 'Character Song 1', file: 'defaultCover.png'} ]
+
+        for release in releases
+          li.SeriesIndividual-item
+            img.SeriesIndividual-album_image(src="/public/assets/img/covers/#{release.file}")
+            p.SeriesIndividual-album_title #{release.title}

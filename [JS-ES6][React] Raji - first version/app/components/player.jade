@@ -1,0 +1,23 @@
+div.Player
+  - var page_title = "Now playing"
+  include ./header
+  
+  div.Player-song
+    img.Player-songImage(src="/public/assets/img/iguigu.jpg")
+    div.Player-songInfo
+      p.Player-text.Player-text--title Puengue
+      p.Player-text.Player-text Iguchi Yuka
+      p.Player-text.Player-text Hafa Adai
+
+  div.Player-progress
+    include ./slider
+    div.Player-progressTime
+      span.Player-progressTime--min 03:21
+      span.Player-progressTime--max 04:21
+
+  div.Player-controls
+    span.Player-icon.fa.fa-random
+    span.Player-icon.fa.fa-fast-backward
+    span.Player-icon.fa.fa-play
+    span.Player-icon.fa.fa-fast-forward
+    span.Player-icon.fa.fa-volume-down

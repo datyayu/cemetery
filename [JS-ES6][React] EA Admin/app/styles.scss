@@ -1,0 +1,19 @@
+/* Global styles */
+* {
+  font-family: verdana;
+  margin: 0;
+  padding: 0;
+}
+
+.Content {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em auto;
+  width: 90%;
+}
+
+
+/* Component styles */
+@import './components/Navbar/_styles.scss';
+@import './components/StatsWrappers/_styles.scss';
+@import './components/Charts/_styles.scss';

@@ -1,0 +1,17 @@
+.PlaylistsList
+  align-items center
+  display flex
+  flex-direction column
+  width 100%
+
+  &-list
+    max-height 80vh
+    overflow auto
+    margin 0
+    width 80%
+
+@media screen and (max-width $query_large)
+  .PlaylistsList-list
+    max-height none
+    overflow visible
+    width 90%

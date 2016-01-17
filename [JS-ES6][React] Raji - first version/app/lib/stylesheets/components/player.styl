@@ -1,0 +1,109 @@
+.Player
+  align-items center
+  display flex
+  flex-flow column wrap
+  width 100%
+
+  &-song
+    padding 0 5%
+    margin 2em auto
+    display flex
+    justify-content center
+    width 100%
+
+  &-songImage
+    min-height 250px
+    max-height 250px
+    min-width 250px
+    max-width 250px
+
+  &-songInfo
+    display flex
+    flex-direction column
+    justify-content center
+    color $dark_text
+    margin-left 1em
+
+  &-text
+    font-size 1.7em
+    margin 0
+    &--title
+      font-size 2.5em
+
+  &-progress
+    margin 1em
+    width 80%
+
+  &-progressTime
+    color $dark_text
+    display flex
+    justify-content space-between
+
+  &-controls
+    color $dark_text
+    display flex
+    font-size 3em
+    justify-content space-between
+    margin-top .1em
+    width 80%
+
+  &-icon.is-active
+    color $primary_color
+
+@media screen and (max-width $query_medium) and (orientation portrait)
+  .Player
+    &-song
+      flex-direction column
+      align-items center
+      margin 1em 0
+
+    &-songImage
+      min-height 250px
+      max-height 250px
+      min-width 250px
+      max-width 250px
+
+    &-text
+      font-size 1.5em
+      margin .5em
+      &--title
+        font-size 2.25em
+
+    &-songInfo
+      font-size 1em
+      margin 0
+      text-align center
+      width 100%
+
+    &-text
+      margin 0
+
+    &-progress
+      margin .5em
+
+    &-controls
+      font-size 2.5em
+
+
+@media screen and (max-width $query_medium) and (orientation landscape)
+  .Player
+    &-song
+      margin 1em
+
+    &-songImage
+      min-height 100px
+      max-height 100px
+      min-width 100px
+      max-width 100px
+
+    &-text
+      font-size 1.5em
+      margin 0
+      &--title
+        font-size 2.25em
+
+    &-songInfo
+      font-size .8em
+
+    &-controls
+      font-size 2em

@@ -1,0 +1,81 @@
+.Playlist
+  flex 1
+  flex-direction column
+  min-height 100vh
+  max-height 100vh
+  min-width 400px
+  background $box_color
+  align-items center
+  overflow-y auto
+  smoothTransition()
+
+
+  &-title
+    color $light_text
+    font-size 1.5em
+    margin 0
+    margin-top .3em
+    width 90%
+    text-align center
+    padding-bottom .8em
+    border-bottom 1px solid $tertiary_color
+
+  &-info
+    display flex
+    justify-content center
+    align-items center
+    color $light_text
+    padding .5em
+    font-size 1.5em
+    width 90%
+    border-bottom 1px solid $tertiary_color
+    &.is-active
+      height 200px
+
+  &-infoImage
+    height 100px
+    min-width 100px
+    margin-right 1em
+
+  &-text
+    margin 0em
+
+
+  &-songList
+    width 100%
+    margin 0
+    padding 0
+
+  &-icon
+    margin-right .5em
+
+
+@media screen and (max-width $query_large)
+  .Playlist
+    position absolute
+    top 0
+    right -75vw
+    min-width 75%
+    max-width 75%
+    min-height 100%
+
+    &-info, &-info.is-active
+      display none
+
+    &-infoImage
+      min-width 70px
+      max-width 70px
+      min-height 70px
+      max-height 70px
+
+    &-infoText
+      font-size .75em
+
+  .move-left
+    .Playlist
+      right 0
+
+@media screen and (max-width $query_large) and (orientation landscape)
+  .Playlist
+    &-info, &-info.is-active
+      display none // I'm too lazy to fix this so just fuck that.

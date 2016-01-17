@@ -1,0 +1,72 @@
+.SeriesIndividual
+  height 100%
+  width 100%
+
+  &-content
+    display flex
+    margin 0 auto
+    width 80%
+    height 85vh
+
+  &-image
+    align-self center
+    max-height 70vh
+    min-width 46.66vh
+
+  &-releases
+    margin-left 10%
+    width 90%
+
+  &-title
+    border-bottom 1px solid $dark_text
+    color $dark_text
+    font-size 2em
+    margin 0
+    margin-top .7em
+    padding-bottom .3em
+    text-align center
+
+  &-list
+    display flex
+    flex-wrap wrap
+    max-height 70vh
+    overflow auto
+
+  &-item
+    position relative
+    width 33.33%
+
+  &-album_image
+    margin-bottom -.3em
+    width 100%
+
+  &-album_title
+    background rgba($primary_color, .5)
+    bottom 0
+    color $clear_text
+    font-size 1.3em
+    left 0
+    margin 0
+    overflow(ellipsis)
+    position absolute
+    width 100%
+    text-align center
+
+
+@media screen and (max-width $query_large)
+  .SeriesIndividual
+    &-content
+      height 100%
+    &-releases
+      margin 0
+      width 100%
+
+    &-list
+      max-height none
+      overflow visible
+
+
+@media screen and (max-width $query_medium)
+  .SeriesIndividual
+    &-item
+      width 50%

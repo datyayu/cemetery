@@ -1,0 +1,20 @@
+{
+  "name": "graphql_chat",
+  "version": "1.0.0",
+  "description": "A chat api using graphql",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ../index.js"
+  },
+  "author": "Arturo Coronel <aoitsu3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "bluebird": "^3.1.1",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "graphql": "^0.4.14",
+    "kerberos": "0.0.17",
+    "mongoose": "^4.3.6"
+  }
+}

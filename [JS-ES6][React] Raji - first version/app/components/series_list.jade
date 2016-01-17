@@ -1,0 +1,16 @@
+div.Series
+  - title = "Series"
+  include ./header
+  
+  ul.Series-filters
+    for letter in ["ALL","#","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","Y","X","Z"]
+      li.Series-filter 
+        a.Series-link(href="#") #{letter}
+
+  ul.Series-list
+    for series in [,,,,,,,,,,,,,]
+      li.Series-item
+        img.Series-image(src="/public/assets/img/series/absoluteduo.jpg")
+        p.Series-title Absolute Duo
+
+

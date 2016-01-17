@@ -1,0 +1,92 @@
+.Release
+  align-items center
+  display flex
+  flex-flow column wrap
+  width 100%
+
+  &-content
+    display flex
+    flex-direction column
+    align-items center
+    width 100%
+
+  &-info
+    width 100%
+
+  &-image
+    min-height 250px
+    max-height 250px
+    min-width 250px
+    max-width 250px
+    margin-top 1.5em
+
+  &-text
+    color $dark_text
+    font-size 2em
+    margin 0.2em
+    overflow(ellipsis)
+    width 100%
+    text-align center
+    &--title
+      font-size 2.5em
+    &--year
+      font-size 1.5em
+      &::before
+        content "("
+      &::after
+        content ")"
+
+
+@media screen and (max-width $query_large)
+  .Release
+    &-image
+      min-height 200px
+      min-width 200px
+      max-height 200px
+      max-width 200px
+      margin-right 0
+
+    &-text
+      font-size 1.5em
+      white-space pre-wrap
+      overflow visible
+
+
+@media screen and (max-width $query_medium) and (orientation landscape)
+  .Release
+    &-content
+      display flex
+      width 90%
+      flex-direction row
+
+    &-info
+      margin-top 1em
+
+    &-image
+      min-width 200px
+      max-height 200px
+      margin-right 1em
+      min-width 200px
+      max-width 200px
+
+
+@media screen and (max-width $query_medium) and (orientation portrait)
+  .Release
+    &-content
+      align-items center
+      display flex
+      flex-direction column
+      width 90%
+
+    &-info
+      margin-top 1em
+
+    &-text
+      font-size 1.5em
+      overflow visible
+      white-space pre-wrap
+
+    &-image
+      height 200px
+      margin-right 0em
+      width 200px

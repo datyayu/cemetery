@@ -1,0 +1,17 @@
+# Node stuff
+/node_modules/
+*.log
+
+# Bower packages
+/bower_components/
+
+# Editor stuff
+/.vscode/
+
+# Auto-generated assets
+/public/bundle.js
+/public/bundle.js.map
+
+# System files
+.DS_Store
+.initialize

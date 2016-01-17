@@ -1,0 +1,71 @@
+.Content-blocker
+  opacity 0
+  position absolute
+  top 0
+  smoothTransition(500ms)
+  width 50%
+  height 100%
+  z-index 2
+
+
+.content
+  display flex
+  flex 1
+  margin 0
+  padding 0
+
+.wrapper
+  height 100%
+  position relative
+  right 0
+  top 0
+  smoothTransition()
+
+.container
+  display flex
+  position relative
+  max-width 100vw
+  min-height 100vh
+  max-height 100vh
+  min-width 100%
+  overflow hidden
+  &.move-right
+    .Content-blocker
+        width 40%
+        right 0
+        opacity 1
+  &.move-left
+    .Content-blocker
+        width 25%
+        left 0
+        opacity 1
+
+  &.move-right,
+  &.move-left
+    & > *
+      overflow hidden
+    .Content-blocker
+      background rgba(black,.4)
+      height 100vh
+      overflow-y hidden
+      position fixed
+      top 0
+
+
+// Desktop view
+@media screen and (min-width: $query_large)
+  .wrapper
+    &.Move-right,
+    &.Move-left
+      right 0
+    .Content-blocker
+        display none
+        right 0
+        width 100%
+        &.show
+          smoothTransition()
+          display block
+          background rgba(black,.4)
+          width 100vw
+          height 100vh
+          opacity 1

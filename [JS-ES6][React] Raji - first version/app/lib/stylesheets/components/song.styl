@@ -1,0 +1,59 @@
+.Song
+  align-items center
+  border-bottom 1px solid $tertiary_color
+  color $light_text
+  display flex
+  justify-content space-between
+  margin 0 auto
+  max-width 90%
+  min-width 90%
+  padding .5em 1em
+
+  &.is-playing
+    background rgba(white,.1)
+    color $clear_text
+
+  &-info
+    display flex
+    width 100%
+
+  &-image
+    margin-right 1em
+    min-width 50px
+    height 50px
+
+  &-desc
+    flex 1
+
+  &-text
+    margin 0
+    overflow(ellipsis)
+
+  &-icons
+    align-items center
+    display flex
+    width 6em
+    justify-content space-between
+
+  &-icon
+    font-size 1.5em
+    margin-left 1em
+
+
+@media screen and (max-width $query_large)
+  .Song
+    padding-right 0.3em
+
+    &-image
+      margin-right 1em
+      min-width 40px
+      height 40px
+
+    &-desc
+      display flex
+      flex-direction column
+      font-size .9em
+      justify-content center
+
+    &-icons
+      display none

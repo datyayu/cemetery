@@ -1,0 +1,70 @@
+.PlaylistItem
+  background $box_color
+  color $light_text
+  display flex
+  margin 1em 0
+  width 100%
+
+  &-info
+    display flex
+    width 50%
+
+    &-image
+      min-height 150px
+      max-height 150px
+      min-width 150px
+      max-width 150px
+      margin 1em
+
+    &-main
+      margin-top .5em
+      min-width 50%
+
+    &-text
+      font-size 1.3em
+      margin .2em 0
+      overflow(ellipsis)
+      &--title
+        font-size 2em
+
+  &-top
+    align-items center
+    display flex
+    flex-direction column
+    margin-left 1em
+    width 50%
+
+    &-title
+      border-bottom 1px solid $light_text
+      font-size 2em
+      margin .3em 0
+      padding-bottom .3em
+      text-align center
+      width 80%
+
+    &-list
+      width 100%
+
+    &-item
+      text-align center
+      overflow(ellipsis)
+
+
+@media screen and (max-width $query_large)
+  .PlaylistItem-info
+    width 100%
+    margin-right .5em
+
+    &-main
+      margin-top 0.1em
+
+    &-image
+      min-height 90px
+      max-height 90px
+      min-width 90px
+      max-width 90px
+      margin .5em
+
+    &-text
+      font-size 1em
+      margin .1em 0

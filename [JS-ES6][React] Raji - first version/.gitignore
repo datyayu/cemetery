@@ -1,0 +1,9 @@
+# node stuff
+node_modules
+*.log
+
+# Assets
+app/public/assets/css/
+app/public/assets/html/
+app/public/assets/js/
+app/public/assets/mp3/

@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Winter 2015",
+    "image": "/public/assets/img/seasons/winter2015.jpg",
+    "id": "winter2015"
+  },{
+    "name": "Fall 2014",
+    "image": "/public/assets/img/seasons/fall2014.jpg",
+    "id": "fall2014"
+  },{
+    "name": "Summer 2014",
+    "image": "/public/assets/img/seasons/summer2014.jpg",
+    "id": "summer2014"
+  }
+]

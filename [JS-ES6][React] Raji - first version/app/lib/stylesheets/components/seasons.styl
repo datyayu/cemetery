@@ -1,0 +1,26 @@
+.Seasons
+  margin 0
+  align-items center
+  display flex
+  flex-direction column
+  width 100%
+
+  &-list
+    max-height 80vh
+    overflow auto
+    width 80%
+
+  &-item
+    margin 1em 0
+    max-height 10em
+    overflow hidden
+    width 100%
+
+  &-image
+    width 100%
+
+
+@media screen and (max-width $query_large)
+  .Seasons-list
+    max-height none
+    overflow visible

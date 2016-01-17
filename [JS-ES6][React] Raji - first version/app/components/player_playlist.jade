@@ -1,0 +1,11 @@
+div.Playlist
+  p.Playlist-title Current playlist
+  div.Playlist-info
+    img.Playlist-infoImage(src="/public/assets/img/iguigu.jpg")
+    div.Playlist-infoText
+      p.Playlist-text Hafa Adai
+      p.Playlist-text Iguchi Yuka
+      p.Playlist-text (2014)
+  ul.Playlist-songList
+    for song in [1,2,3,4,5]
+     include ./song

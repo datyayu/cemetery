@@ -1,0 +1,108 @@
+{
+  "info": {
+    "image": "/public/assets/img/iguigu.jpg",
+    "title": "Hafa Adai",
+    "author": "Iguchi Yuka",
+    "year": 2015
+  },
+
+  "songs": [
+    {
+      "id": "0001",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Manana",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/01.Manana.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0002",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Fun Fanfare",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/02.Fun Fanfare.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0003",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "POPCORN SMILE",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/03.POPCORN SMILE.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0004",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Grow Slowly",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/04.Grow Slowly.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0005",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "rainbow heart ♥ rainbow dream ☆",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/05.rainbow heart ó+ rainbow dream í+.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0006",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Yudachi Serenade",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/06.Yudachi Serenade.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0007",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Ponytail",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/07.Ponytail.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0008",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Shining Star-☆-LOVE Letter",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/08.Shining Star-í+-LOVE Letter.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0009",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Open Sesame!",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/09.Open Sesame!.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0010",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "twinkle twinkle...",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/10.twinkle twinkle....mp3",
+      "maxTime": 255
+    }, {
+      "id": "0011",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Mi no Chikara",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/11.Mi no Chikara.mp3",
+      "maxTime": 255
+    }, {
+      "id": "0012",
+      "image": "/public/assets/img/iguigu.jpg",
+      "title": "Puengue",
+      "artist": "Iguchi Yuka",
+      "album": "Hafa Adai",
+      "url": "/public/assets/mp3/Hafa Adai/12.Puengue.mp3",
+      "maxTime": 255
+    }
+  ]
+}

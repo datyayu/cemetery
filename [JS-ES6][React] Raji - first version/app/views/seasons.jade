@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    meta(charset='UTF-8')
+    title weesong
+    link(rel='stylesheet', href='/public/assets/css/styles.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300')
+  body
+    - page_title = 'Series'
+
+    div.wrapper
+      div.content
+        include ../components/sidebar
+        include ../components/seasons
+
+      div.Content-blocker
