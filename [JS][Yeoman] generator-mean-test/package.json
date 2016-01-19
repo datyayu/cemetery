@@ -1,0 +1,16 @@
+{
+  "name": "generator-mean-test",
+  "version": "0.1.0",
+  "description": "A generator for a really simple mean app",
+  "author": "Arturo Coronel <aoitsu3@gmail.com>",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "app"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.20.2"
+  },
+  "license": "MIT"
+}
