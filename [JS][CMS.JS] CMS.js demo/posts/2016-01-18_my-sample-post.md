@@ -7,6 +7,9 @@ title: Example post
 Ok so if this show on the first try, then cmsjs rocks.
 If don't, then I probably fucked something up.
 
+## Update
+Yep, I fucked up the pages & posts folders on the config file.
+
 
 ### JS code test.
 ```

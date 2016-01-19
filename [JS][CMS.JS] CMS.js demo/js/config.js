@@ -12,22 +12,22 @@ $(function() {
 		siteEmail: 'aoitsu3@gmail.com',
 
 		// Name
-		siteAuthor: '@datyayu',
+		siteAuthor: 'datyayu',
 
 		// Navigation items
 		siteNavItems: [
-			{ name: 'Github', href: 'https://github.com/datyayu', newWindow: false},
+			{ name: 'Github', href: 'https://github.com/datyayu/cemetery/tree/gh-pages/%5BJS%5D%5BCMS.JS%5D%20CMS.js%20demo', newWindow: false},
 			{ name: 'About'}
 		],
 
 		// Posts folder name
-		postsFolder: 'posts',
+		postsFolder: '%5BJS%5D%5BCMS.JS%5D%20CMS.js%20demo/posts',
 
 		// Homepage posts snippet length
 		postSnippetLength: 120,
 
 		// Pages folder name
-		pagesFolder: 'pages',
+		pagesFolder: '%5BJS%5D%5BCMS.JS%5D%20CMS.js%20demo/pages',
 
 		// Site fade speed
 		fadeSpeed: 300,
